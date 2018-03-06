@@ -32,4 +32,8 @@ public class Comment {
     {
     return author+": "+content+" ("+date+")";
     }
+
+    public LocalDate getDate() {
+      return date; 
+}
 }

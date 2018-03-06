@@ -25,6 +25,9 @@ public class Note {
     comments.add(comment);
     
     }
+    public List<Comment> getComments(){
+    return comments;
+    }
     public String toString()
     {
     StringBuilder sb= new StringBuilder();
@@ -35,6 +38,10 @@ public class Note {
     sb.append("\n");
     return sb.toString();
     
+    }
+
+    public int numberofcomments() {
+        return comments.size();
     }
     
     
